@@ -7,8 +7,8 @@ Vagrant.configure('2') do |config|
     override.vm.box = 'digital_ocean'
     override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
-    provider.client_id = '{your_client_id}'
-    provider.api_key = '{your_api_key}'
+    provider.client_id = 'your_client_id'
+    provider.api_key = 'your_api_key'
 
     provider.image                = 'CentOS 6.4 x64'
     provider.region               = 'San Francisco 1'
